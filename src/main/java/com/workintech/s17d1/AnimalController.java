@@ -36,5 +36,6 @@ public class AnimalController {
     @DeleteMapping("/{id}")
     public Animal deleteAnimal(@PathVariable int id){
         return animals.remove(id);
+
     }
 }
